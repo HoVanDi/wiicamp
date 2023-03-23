@@ -1,0 +1,28 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    height: 28px;
+    outline: none;
+    margin-top: 20px;
+    border: none;
+    width: 100px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.iconcoppy{
+    vertical-align: middle;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    margin-right: 50px;
+}
