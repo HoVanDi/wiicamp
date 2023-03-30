@@ -5,6 +5,46 @@
     font-size: 1.2rem;
     /* border: 1px solid #333; */
 }
+.list{
+    overflow: auto;
+    height: 134px;
+    position: relative;
+    
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+.list_iconcoppy{
+    justify-content: flex-end;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+
+
+
+span.list_name {
+    margin-right: 400px;
+    font-size: 0.8rem;
+    margin-top: 6px;
+    color: #9a9a9a;
+    cursor: pointer;
+}
+
+span.list_name:hover {
+    color: #2daaed;
+}
+
+
+hr {
+    opacity: 0.4;
+}
+
 
 
 .header{
@@ -12,6 +52,7 @@
     background-color: #333;
     position: relative;
     height: 150px;
+    border-radius: 6px;
 
 }
 
@@ -19,14 +60,14 @@
 .header_body {
         margin-top: 20px;
         border: 1px solid #6a6666;
-        padding: 5px 10px 24px 10px;
+        padding: 5px 16px 24px 10px;
         border-radius: 4px;
  }
 
 
 .header_audio{
     width: 100%;
-    color: #333;
+    background-color: #f1f3f4;
     position: absolute;
     margin-top: 118px;
     height: 32px;
@@ -69,6 +110,7 @@
  }
 
  .dowload_icons-dot{
+    margin-top: 38px;
 
  }
 
@@ -78,6 +120,7 @@
     justify-content: space-between;
     /* align-items: center; chạy theo chiều dọc */
 }
+
 
 .button{
     display: flex;
